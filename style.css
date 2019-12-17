@@ -26,11 +26,6 @@ nav {
   width: 375px;
 }
 
-.bus-stops {
-  display: inline-block;
-  width: 375px;
-}
-
 .headertitle {
   font-size: 17px;
   font-family: sans-serif;
@@ -52,11 +47,10 @@ nav {
 
 .arrow-right {
   color: #8E8E93;
-  float: right;
-  padding-right: 2%;
+  padding-left: 96%;
 }
 
-.content {
+.bus-stops {
   display: inline-block;
   width: 375px;
   height: 45px;
@@ -74,29 +68,45 @@ nav {
   padding-top: 9px;
 }
 
-.location h2 {
-  font-weight: bold;
+.BEastbound {
+  font-weight: normal;
   font-family: sans-serif;
   font-size: 18px;
+  background-color: white;
   padding-left: 9px;
   padding-top: 10px;
 }
 
-.location h3 {
+.BNorthbound {
   font-weight: normal;
   font-family: sans-serif;
   font-size: 16px;
+  background-color: white;
   padding-left: 9px;
 }
 
-.location h4 {
+.BSouthbound {
   font-weight: normal;
   font-family: sans-serif;
-  font-size: 12px;
-  font-style: italic;
+  font-size: 16px;
+  background-color: white;
   padding-left: 9px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #CDCED3;
+}
+
+.BReroute {
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: white;
+  padding-left: 9px;
+}
+
+.BOutofservice {
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: white;
+  padding-left: 9px;
 }
 
 .noservicecontent {
