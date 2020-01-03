@@ -111,6 +111,17 @@ nav {
   padding-bottom: 9px;
 }
 
+.Ebusarr, .Nbusarr, .Sbusarr {
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  text-align: center;
+  display: block;
+  line-height: 1;
+  margin-right: 2%;
+}
+
 .BOutofservice {
   font-weight: normal;
   font-family: sans-serif;
